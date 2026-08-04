@@ -6,6 +6,7 @@ ENV PORT=80
 
 COPY default.conf.template /etc/nginx/templates/default.conf.template
 COPY index.html styles.css script.js logo.png /usr/share/nginx/html/
+COPY favicon_io /usr/share/nginx/html/favicon_io
 
 EXPOSE 80
 
